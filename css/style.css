@@ -11,6 +11,12 @@ nav{
 #main-section{
 	padding:0 30px;
 }
+#test-container .card{
+	padding:20px 10px;
+}
+#taken-hours .btn{
+	margin-top: 5px;
+}
 
 .hidden{
 	display: none;
@@ -46,10 +52,11 @@ nav{
 	background-color:#0075C9;
 	width: 100%;
 }
-.send-form{
+.btn{
 	background-color:#0075C9;
 }
 .hour-card{
 	background-color: #0075C9;
-	height:40px;
+	color:white;
+	border:1px solid white;
 }
