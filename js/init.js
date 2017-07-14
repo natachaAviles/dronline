@@ -36,6 +36,14 @@ function onsubmit(){
 		$('#searchAvailability').addClass('hidden');
 		validate();
 		$('#appointments').removeClass('hidden');
+		payment();
 
 	});
-}
+
+function payment(){
+		$('.hour-card').on('click',function(){
+			$('#appointments').addClass('hidden');
+			$('#payment').removeClass('hidden');
+		});
+	}
+}	
